@@ -28,7 +28,9 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/preset-env']
+                        presets: ['@babel/preset-env'],
+                        // Add support for Async and Await
+                        plugins: ["@babel/plugin-transform-runtime"]
                     }
                 },
             },
