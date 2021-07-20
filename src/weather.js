@@ -10,7 +10,7 @@ export default class Weather{
     }
 
     async load() {
-        let res = await fetch('http://api.weatherapi.com/v1/current.json?key=' + this.key + '&q=' + this.location + '&aqi=no',
+        let res = await fetch('https://api.weatherapi.com/v1/current.json?key=' + this.key + '&q=' + this.location + '&aqi=no',
         {
             method: 'get',
             headers: {

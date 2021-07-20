@@ -47,7 +47,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({
-        title: "Project Title Goes Here",
+        title: "Suncream",
         }),
     ],
 };
