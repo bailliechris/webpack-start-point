@@ -1,5 +1,58 @@
-h1{
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    font-weight:200;
+    padding:20px;
+    margin: 2rem auto 2rem auto;
+    max-height:3rem;
+    overflow:auto;
+}
+
+.container{
+    display:flex;
     justify-content: center;
-    color:purple;
-    border: 3px solid green;
+    align-content: center;
+    height:80vh;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.title{
+    font-size:3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text{
+    font-size:5rem;
+    text-align:center;
+    font-weight:900;
+}
+
+footer{
+    position:fixed;
+    bottom:10px;
+    left:10px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    box-shadow: 15px 15px 5px 0px #D8D8D8;
+    transition: all 2s ease;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid #FFEB11;
+}
+a:hover{
+    box-shadow: 15px 15px 32px 0px #FFEB11;
 }
